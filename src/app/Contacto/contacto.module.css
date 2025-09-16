@@ -1,0 +1,21 @@
+.containerContacto{
+      background-image: url(/img/mapa.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 80px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titleDondeEstamos{
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
