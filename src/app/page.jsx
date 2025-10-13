@@ -6,12 +6,12 @@ export default function Home() {
     <>
       <Header />
 
-     <section className="py-20 bg-white">
+     <section className="py-20 bg-white" id="Inicio">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           
           {/* Texto */}
-          <div>
+          <div >
             <p className="text-blue-600 uppercase font-medium mb-2">
               TU PC TU MEJOR AMIGA
             </p>

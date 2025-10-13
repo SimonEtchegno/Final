@@ -12,10 +12,14 @@ export default function Servicios() {
         showContent={true}
         title="Nuestros Servicios"
         subtitle="Conoce más sobre lo que ofrecemos"
+        link="#Servicios"
       />
 
-  <main className="p-4 text-center">
-  <h1 className="mb-4">Nuestros Servicios</h1>
+<div id="Servicios">
+
+</div>
+  <main  className="p-4 text-center" >
+  <h1 className="mb-4 mt-5 #servicios">Nuestros Servicios</h1>
   <p className="mb-5">
     Ofrecemos una amplia gama de servicios de reparación y mantenimiento de computadoras.
   </p>

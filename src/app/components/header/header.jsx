@@ -1,6 +1,6 @@
 import styles from "./Header.module.css";
 
-export default function Header({ className, showContent = true, title, subtitle, button }) {
+export default function Header({ className, showContent = true, title, subtitle, button, link }) {
   return (
     <header className={`${styles.imgParallax} ${className || ""}`}>
       {showContent && (
@@ -8,11 +8,14 @@ export default function Header({ className, showContent = true, title, subtitle,
           <div className="container mx-auto px-6 md:px-12 lg:px-20">
             <h1 className="text-5xl font-bold text-white mb-4">{title || "Datatech"}</h1>
             <p className="text-xl text-gray-200 mb-6">{subtitle || "Soluciones tecnológicas para tu PC"}</p>
+            
             <a
-              href="#servicios"
-              className="inline-block text-decoration-none px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md shadow-md transition"
-            >{button || "Ver Servicios"}
+              href={link || "#Inicio"}
+              className=" text-decoration-none inline-block no-underline px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-md shadow-md transition"
+            >
+              {button || "Inicio"}
             </a>
+
           </div>
         </div>
       )}

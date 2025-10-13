@@ -72,7 +72,7 @@ export default function Contacto_() {
       {/* Selección de servicio */}
       <div className="form-floating mb-3">
         <select className="form-select" id="service" name="service" required>
-          <option value="" disabled selected>Seleccione un servicio</option>
+          <option value=""  >Seleccione un servicio</option>
           <option value="reparacion">Reparación de PCs - $1000</option>
           <option value="mantenimiento">Mantenimiento - $500</option>
           <option value="software">Instalación de Software - $800</option>
