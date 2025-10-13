@@ -1,12 +1,14 @@
+
+"use client";
 import styles from "./page.module.css";
 import Header from "./components/header/header";
-
+import 'animate.css';
 export default function Home() {
   return (
     <>
       <Header />
 
-     <section className="py-20 bg-white" id="Inicio">
+     <section className="py-20 bg-white " id="Inicio">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           
@@ -36,12 +38,8 @@ export default function Home() {
               ✨ Confía en Datatech para mejorar tu experiencia informática. 🚀
             </p>
 
-            <a
-              href="#contacto"
-              className="text-blue-600 font-medium underline hover:text-blue-800"
-            >
-              Contáctanos
-            </a>
+         
+           
           </div>
 
           {/* Imagen */}

@@ -139,7 +139,7 @@ export default function Nosotros_() {
                 <h4 className="card-title mb-0">Simón Etchegno</h4>
                 <p className="text-muted mb-2">Técnico en Computación</p>
                 <p className="small text-secondary">
-                  Especializado en diagnóstico, reparación y optimización de PCs y notebooks.
+                  Soy Simón Etchegno, técnico en computación de Bahía Blanca. Me dedico a reparar, mantener y optimizar PCs y notebooks, ofreciendo soluciones rápidas, confiables y honestas. Mi objetivo es que cada equipo funcione al máximo y que cada cliente reciba un servicio cercano y profesional.
                 </p>
                 <div>
                   <a href="#" className="text-dark mx-2">
